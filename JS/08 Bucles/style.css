@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+background-color: rgb(9, 9, 9);
+padding: 10px;
+}
+ul{
+list-style: none;
+display: flex;
+}
+li{
+margin: 0 15px;
+}
+a{
+text-decoration: none;
+color:white;
+font-weight: bold;
+}
+a:hover{
+    color:rgba(0, 0, 0, 0.415)
+}
+main{
+    justify-content: center;
+}
+.container{
+    padding: 100px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.container p{
+    font-size: 40px;
+}
+
+.button{
+    border-radius: 20px;
+    padding: 20px;
+   outline: solid 2px blue;
+    color: black;
+
+}
